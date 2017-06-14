@@ -1,0 +1,15 @@
+commit is the building block of git
+It represnts the version of the file
+git it the version control system which save the history it is developed in2005 by linus torvald 
+repository is a collection of file 
+commit shows the verionid of the file
+for every chenges we have to commit
+git diff id a part of commit
+git log is used to view the history
+git log --stat defines which fles have been changed after a commit
+commit can have more then one file like index,html file
+repository is a collection of files
+git clone is used to copy a repository of one computer to another
++=insertion 
+-=deletion
+gir checkout command is used to checkout the previous verion 
