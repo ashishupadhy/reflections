@@ -13,3 +13,4 @@ git clone is used to copy a repository of one computer to another
 +=insertion 
 -=deletion
 gir checkout command is used to checkout the previous verion 
+hmmmm
