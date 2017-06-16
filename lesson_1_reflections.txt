@@ -1,33 +1,33 @@
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    Fill in your answer here
+    git diff command will compare the two files and it will show the changes between two files and then we have to find out where the bug is. for eg. git diff a7364646363 rt47823040 it will compare this versions of this file and we have to find the bug.
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-    Fill in your answer here
+      Yes, having easy acces to the eniter history makes mee efficent programmer i can see all the new and older versions of file . it can help to see the updates if somebody has updated the file .  For eg. git log comand is used to view the history of file. 
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    Fill in your answer here
+    Manually creating the commit is useful beacuse we can have meaningful commits which can groupes logically. And it is more meaningful thn auto commit because those commits will ocuur when a file is saved and it don't care about the structure of project.
 
-Why do you think some version control systems, like Git, allow saving multiple
-files in one commit, while others, like Google Docs, treat each file separately?
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
-    Fill in your answer here
+    i think Beacuse Google users are more likely working on seperate files like doc and powerpoint. While Git is more towards to programmers that need to compile files. 
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Fill in your answer here
+    git log can be used see the updates that have beeen made to repository
+    git log is used to see changes between two commits
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    Fill in your answer here
+    We can try changing any critical features, since you can always revert back to the point when those were working correctly. If you find something is not working, you can git log, and try the previous versions untill you find the one which works, and make diff of the last one that worked correctly and the commit following it. That result would show where and how the bug was introduced
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+    I will try writing and use commit to save changes.
