@@ -1,1 +1,14 @@
-when would you want to create a repository rather than keeping all your work local?
+Q1.]When would you want to create a remote repository rather than keeping all your work local?
+Ans.remote repository is a repository which stores the location of the repository that you want to sent and recieved new commits to inform we will use remote repository to copied the repository of my local machine into git hub repository. for that we use a command git remote add origin url.for git hub we use remote repository for syncing of two repositories.when i want to make a repository public i will create remote repository.
+
+Q2.]Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Ans. For pulling changes the command is git pull origin master(It will automatically pull changes from all branch) and git pull origin / branch name master (It will manually pull changes from the specific branch).Thatswhy we use manual than automatic pull to pull changes to a specific branch.
+
+Q3.]Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Ans.Forks=It allows to make a copy of somebody else repository directly on your profile. for rg. if you want to copy a git hub repository of your friend on your github profile you can use the fork button.
+b.clones=It simply means clonning making a copy of someone repository on your local machine for eg . when we fork a repository and we want to add changes on our local machine not on github website so we can make a clone and do that and when the changes is done we can push the changes
+c.Branches=branches are creates in a repository, branches can be used to keep thing organize
+
+Q4.]What is the benefit of having a copy of the last known state of the remote stored locally?
+Ans.Git stores local copies of remote branch and the name of that copy includes the name of remote and the mater branch. We can do this by using a command git fetch ommand. 
+
